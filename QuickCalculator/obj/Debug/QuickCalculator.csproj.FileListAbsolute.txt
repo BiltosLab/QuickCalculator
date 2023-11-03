@@ -1,0 +1,10 @@
+C:\Users\Test\source\repos\QuickCalculator\QuickCalculator\obj\Debug\QuickCalculator.csproj.AssemblyReference.cache
+C:\Users\Test\source\repos\QuickCalculator\QuickCalculator\obj\Debug\QuickCalculator.Properties.Resources.resources
+C:\Users\Test\source\repos\QuickCalculator\QuickCalculator\obj\Debug\QuickCalculator.csproj.GenerateResource.cache
+C:\Users\Test\source\repos\QuickCalculator\QuickCalculator\obj\Debug\QuickCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Test\source\repos\QuickCalculator\QuickCalculator\bin\Debug\QuickCalculator.exe.config
+C:\Users\Test\source\repos\QuickCalculator\QuickCalculator\bin\Debug\QuickCalculator.exe
+C:\Users\Test\source\repos\QuickCalculator\QuickCalculator\bin\Debug\QuickCalculator.pdb
+C:\Users\Test\source\repos\QuickCalculator\QuickCalculator\obj\Debug\QuickCalculator.exe
+C:\Users\Test\source\repos\QuickCalculator\QuickCalculator\obj\Debug\QuickCalculator.pdb
+C:\Users\Test\source\repos\QuickCalculator\QuickCalculator\obj\Debug\QuickCalculator.Form1.resources
