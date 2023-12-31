@@ -22,7 +22,6 @@ namespace QuickCalculator
         public double result;
         public char operation;
         public bool morethantwo=false;
-        public int inc=0;
 
  
 
@@ -86,7 +85,6 @@ namespace QuickCalculator
         }
         private void button11_Click(object sender, EventArgs e)
         {
-            morethantwoguard();
             if (!morethantwo) {
                 operation = '+';
                 buffer = Convert.ToDouble(textBox1.Text);
@@ -109,17 +107,16 @@ namespace QuickCalculator
 
         private void button13_Click(object sender, EventArgs e)
         {
-            morethantwoguard();
           
                 buffer1 = Convert.ToDouble(textBox1.Text);
                 textBox1.Clear();
                 //textBox1.Text += "= ";
                 calc();
                 textBox1.Text += Convert.ToString(result);
+                morethantwo=true;
         }
         private void button14_Click(object sender, EventArgs e)
         {
-            morethantwoguard();
             if (!morethantwo)
             {
                 operation = '-';
@@ -137,7 +134,6 @@ namespace QuickCalculator
         }
         private void button15_Click(object sender, EventArgs e)
         {
-            morethantwoguard();
             if (!morethantwo)
             {
                 operation = '*';
@@ -156,7 +152,6 @@ namespace QuickCalculator
         }
         private void button16_Click(object sender, EventArgs e)
         {
-            morethantwoguard();
             if (!morethantwo)
             {
                 operation = '/';
@@ -176,10 +171,10 @@ namespace QuickCalculator
         {
             switch (operation)
             {
-                case '+': result = buffer + buffer1; break;
-                case '-': result = buffer - buffer1; break;
+                case '+': result  buffer + buffer1; break;
+                case '-': result  buffer - buffer1; break;
                 case '/':
-                    if (buffer1 != 0)
+                    if (buffer1 ! 0)
                     {
                         result = buffer / buffer1;
                     }
@@ -202,14 +197,6 @@ namespace QuickCalculator
         }
       
 
-        public void morethantwoguard()
-        {
-            inc++;
-            if(inc >= 2)
-            {
-                morethantwo = true;
-            }
-        }
         public void clearall()
         {
             textBox1.Clear();
@@ -217,7 +204,6 @@ namespace QuickCalculator
             buffer = 0;
             buffer1 = 0;
             morethantwo = false;
-            inc = 0;
         }
       
     }
